@@ -12,8 +12,9 @@ required_columns:
 
 # Email Configuration
 email:
-  enabled: false  # Set to false to skip email sending
+  enabled: true  # Set to false to skip email sending
   recipients:
+    - muzammil.ibrahim.pm@ibm.com
     - manager@company.com
     - team@company.com
   smtp_server: "smtp.office365.com"
