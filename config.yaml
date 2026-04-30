@@ -1,0 +1,28 @@
+# Input/Output Configuration
+input_file: "./data/input/report.csv"
+output_dir: "./data/output"
+
+# Required CSV columns
+required_columns:
+  - date
+  - category
+  - count
+  - processed
+  - errors
+
+# Email Configuration
+email:
+  enabled: true  # Set to false to skip email sending
+  recipients:
+    - muzammil.ibrahim.pm@ibm.com
+    - manager@company.com
+    - team@company.com
+  smtp_server: "smtp.office365.com"
+  smtp_port: 587
+  
+# Validation Thresholds
+thresholds:
+  max_error_rate: 10.0  # Percentage
+  min_processing_rate: 90.0  # Percentage
+
+# Made with Bob
